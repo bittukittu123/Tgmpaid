@@ -19,6 +19,11 @@
     "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
     "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
     "env": {
+        "WEBHOOK": {
+            "description": "True/False if your server is web support required? the value is True else False",
+            "required": true
+        }, 
+          {
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true
